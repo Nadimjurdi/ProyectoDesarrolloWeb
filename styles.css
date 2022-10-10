@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'EB Garamond' , serif;   
+}
+h2{
+    margin-left: 25px;
+}
+/*advertisements*/
+.advertisements{
+    background-color: violet;
+    height: 35px;
+    font-size: 18px;
+    font-family: 'Anton', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.advertisements img{
+    width: 30px;
+    margin: 3px;    
+}
+/*Icons*/
+.icons{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: 130%;
+    border-bottom: 2px solid black;
+
+    
+}
+/*left*/
+.icons .icons__left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 90px;
+    margin: 4px;   
+}
+
+.icons .icons__left ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icons .icons__left ul>li{
+    margin:0 10px 0 0 ;
+    list-style: none;
+    opacity: 70%;
+}
+
+a{ 
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:violet;
+}
+/*Right*/
+.icons .icons__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 5px 0 0;
+}
+.icons .icons__right p a{
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(249, 138, 249);
+    padding: 5px;
+    border-radius: 30px;
+    border: 0.8px solid gray;
+}
+
+.icons .icons__right img{
+
+    width: 30px;
+    height: 30px;
+    margin:0 5px;
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: 2px;
+    opacity: 80%;
+}
+
+/*Promotions*/
+
+.promotions{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    border-bottom: 2px black solid;
+
+}
+.promotions img{
+    width: 450px;
+}
+/*Left*/
+.promotions .promotions__left{
+    margin: 35px 20px 35px 35px;
+    padding: -5px;
+    box-shadow: 2px 2px 5px 1px grey;
+    height: 450px;
+    width: 550px;
+
+}
+.promotions .promotions__left img{
+    height: 100%;
+    width: 100%;
+
+}
+
+/*Middle*/
+
+.promotions .promotions__middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.promotions .promotions__middle .promotions__middle__row{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.promotions .promotions__middle .promotions__middle__row .promotions__middle__row__photo{
+ box-shadow: 1px 1px 1px 1px gray;
+ margin-top: 25px;
+ margin-right: 35px;
+}
+
+.promotions .promotions__middle p a{
+    background-color: violet;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    box-shadow: 0px 1px 0.5px 1px gray;
+}
+
+.promotions .promotions__middle p{
+    font-size: 18px;
+}
+.promotions .promotions__middle .promotions__middle__row img{
+    width: 250px;
+}
+
+/*mostsold*/
+.mostsold .img{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.mostsold .img .img--punto{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 11px;
+    padding-bottom: 10px;
+}
+.mostsold .img .img--punto span{
+    padding: 5px;
+    font-weight: bolder;
+}
+.mostsold img{
+    width: 220px;
+    border-radius: 10px 10px 0 0px;
+    
+}
+
+/*Footer*/
+
+footer{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+}
+.links{
+    display: flex;
+}
+.links ul{
+    display: flex;
+}
+.links ul>li{
+    margin: 10px;
+    font-weight: bolder;
+    list-style: none;
+}
+.footer--right{
+    margin:5px 15px 0 0;
+}
+
+/*       PAGINA JOURNAL       */
+
+.noticias{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.noticias .noticias__articulo{
+    width: 49%;     
+    margin: 5px;
+    border:1px solid black;
+    display: flex;
+}
+.noticias .noticias__articulo .noticias__articulo__texto{
+    width: 60%;
+
+}
+.noticias .noticias__articulo img{
+    margin: 15px;
+    width: 35%;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.noticias .noticias__articulo p a{
+    padding: 5px;
+    background-color: violet;
+    color: whitesmoke;
+    border-radius:20px ;
+    box-shadow: 1px 0px 1px 1px gray;
+} 
+
+
+.newscoming{
+    font-size: 75px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(./Imagenes/planeta_tierra.jpg);
+    text-align: center ;
+    border-bottom: 2px solid black;
+
+}
+
+
+
+/*           PAGINA COLLECTION           */
+.comingsoon{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    border-bottom: 2px black solid;
+}
+
+/* Left */
+.comingsoon .comingsoon__left{
+    margin: 35px 20px 35px 35px;
+    padding: -5px;
+    box-shadow: 2px 2px 5px 1px grey;
+    height: 450px;
+
+}
+
+.comingsoon .comingsoon__left img{
+    height: 450px;
+   
+}
+
+/*Middle */ 
+
+.comingsoon .comingsoon__middle{
+    display: flex;
+    flex-direction: column; 
+    justify-content: end;
+}
+.comingsoon .comingsoon__middle a{
+    background-color: violet;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    box-shadow: 1px 1px 1px 0 black;
+}
+
+.comingsoon .comingsoon__middle .comingsoon__texto{
+    font-size: 18px;
+}
+
+.comingsoon .comingsoon__middle .comingsoon__middle__row{
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.comingsoon .comingsoon__middle .comingsoon__middle__row .comingsoon__middle__row__tittle{
+    font-size: 95px;
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:greenyellow;
+    margin-right: 100px;
+
+}
+
+.comingsoon .comingsoon__middle .comingsoon__middle__row img{
+   height: 300px;
+   margin:50px;
+   box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+.comingsoon .comingsoon__middle .comingsoon__middle__row .comingsoon__middle__row__tittle span{
+    font-size: 95px;
+    text-align: end;
+}
+
+
+
+
+
+/*         ABOUT US          */
+
+.presentation{
+    width: 100%;
+    height: 400px;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.presentation img{
+    margin-top: 35px;
+    height: 250px;
+}
+
+.presentation p{
+    margin-top: 35px;
+
+}
+
+.contactus, .account{
+    border-bottom: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.contactus h2, .account h2{
+    font-size: 35px;
+}
+.contactus h6, .account h6{
+    font-size: 15px;
+}
+
+.contactus  input, .account input{
+    width: 30%;
+    border-radius: 10px;
+    height: 30px;
+    background-color: gray;
+    opacity: 50%;
+
+    
+}
+
+
+/*            ACCOUNT         */
+
+
+
+/* Se añadio los estilos de contactus porque es muy parecido  */
